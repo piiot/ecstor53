@@ -1,12 +1,12 @@
 # Welcome to serverless. Read the docs
 # https://serverless.com/framework/docs/
 
-service: fargate-dns-demo
+service: fargate-ecs-dns-update
 
 provider:
   name: aws
   runtime: nodejs8.10
-  region: eu-central-1
+  region: us-west-2
   iamRoleStatements:
     - Effect: "Allow"
       Action:
